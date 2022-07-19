@@ -13,7 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Weather Cast',
-      theme: ThemeData(primarySwatch: Colors.purple),
+      theme: ThemeData(
+        primarySwatch: Colors.purple,
+        accentColor: Colors.white70,
+      ),
       home: const GetStarted(),
       debugShowCheckedModeBanner: false,
     );
